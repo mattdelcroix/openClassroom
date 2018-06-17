@@ -1,0 +1,21 @@
+Qu'est-ce qu'un commit : 
+Un commit permet d'enregistrer les modifications faites sur le projet. Nous créons, en quelque sorte, une nouvelle version de notre application.
+Grâce aux commit, nous pouvons nous rendre compte des modifications effectuées sur les versions antérieur de notre application. Un message explicatif,
+clair et précis doit être associé au commit. Voici la commande : git commit -m "Le message explicatif, clair et précis".
+
+À quoi sert la commande git log: 
+La commande git log permet de lister les commits effectués. Cette liste présente les informations importantes des commits, soit : 
+ - le SHA du commit (Celui-ci va nous permettre de se positionner sur ce commit, grâce à la commande git checkout SHADuCommit)
+ - L'auteur du commit (Pratique quand on travail à plusieur sur un projet)
+ - La date du commit
+ - Le message explicatif, clair et précis du commit
+Cela représente l'historique des commits.
+
+Qu'est-ce qu'une branche: 
+Une branche correspond à une copie du projet. La branche principale est la branche "master". En créant une nouvelle branche "git branch NomBranche", 
+nous créons une copie de notre projet sur laquelle nous pouvons effectuer des tests ou se concentrer sur le développement de nouvelles fonctions.
+Voici les principales commandes sur les branches :
+Lister les branches : git branch
+Créer une branche : git branch NomBranche
+Changer de branche : git checkout NomBranche
+ 
